@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let onboardingContainerVC = OnboardingContainerVC()
     let dummyVC = DummyVC()
     let mainVC = MainViewController()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
@@ -24,7 +25,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         loginViewController.delegate = self
         onboardingContainerVC.delegate = self
         dummyVC.logoutDelegate = self
-        window?.rootViewController = loginViewController
+        
+        window?.rootViewController = AccountSummaryVC()
+        
+        
         return true
     }
 }
