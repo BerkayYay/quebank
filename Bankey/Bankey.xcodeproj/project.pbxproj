@@ -93,7 +93,7 @@
 		F09699E929A7A82100733E2F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				F09699ED29A7A85800733E2F /* AccountSummaryCell.swift */,
+				F09699EF29A7EF3100733E2F /* View */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -103,6 +103,14 @@
 			children = (
 				F087ADB729A3B80C00A22643 /* AccountSummaryHeaderView.swift */,
 				F087ADB929A3B84400A22643 /* AccountSummaryHeaderView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F09699EF29A7EF3100733E2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F09699ED29A7A85800733E2F /* AccountSummaryCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
