@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     let loginViewController = LoginViewController()
     let onboardingContainerVC = OnboardingContainerVC()
-    let dummyVC = DummyVC()
     let mainVC = MainViewController()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]?) -> Bool {
@@ -24,9 +23,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = .systemBackground
         loginViewController.delegate = self
         onboardingContainerVC.delegate = self
-        dummyVC.logoutDelegate = self
         
-        window?.rootViewController = AccountSummaryVC()
+        let vc = mainVC
+        vc.setStatusBar()
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().backgroundColor = appColor
+        window?.rootViewController = vc
+        
         
         
         return true
