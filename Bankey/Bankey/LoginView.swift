@@ -50,6 +50,7 @@ extension LoginView {
         passwordTextField.delegate = self
         passwordTextField.isSecureTextEntry = true
         passwordTextField.autocorrectionType = .no
+        passwordTextField.enablePasswordToggle()
         
         
         dividerView.translatesAutoresizingMaskIntoConstraints = false
