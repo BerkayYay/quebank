@@ -154,12 +154,12 @@ extension LoginViewController{
             return
         }
         
-        if username.isEmpty || password.isEmpty {
-            configureView(withMessage: "Username / password cannot be blank")
-            return
-        }
+//        if username.isEmpty || password.isEmpty {
+//            configureView(withMessage: "Username / password cannot be blank")
+//            return
+//        }
         
-        if username == "a" && password == "a" {
+        if username == "" && password == "" {
             signInButton.configuration?.showsActivityIndicator = true
             delegate?.didLogin()
         } else {
@@ -188,21 +188,22 @@ extension LoginViewController{
 // MARK: - Animations
 extension LoginViewController {
     private func animate(){
-        let animator1 = UIViewPropertyAnimator(duration: 1, curve: .easeInOut) {
+        let duration = 0.5
+        let animator1 = UIViewPropertyAnimator(duration: duration, curve: .easeInOut) {
             self.titleLeadingAnchor?.constant = self.leadingEdgeOnScreen
             self.view.layoutIfNeeded()
         }
-        let animator2 = UIViewPropertyAnimator(duration: 1, curve: .easeInOut) {
+        let animator2 = UIViewPropertyAnimator(duration: duration, curve: .easeInOut) {
             self.subtitleLeadingAnchor?.constant = self.leadingEdgeOnScreen
             self.view.layoutIfNeeded()
         }
-        let animator3 = UIViewPropertyAnimator(duration: 1, curve: .easeInOut) {
+        let animator3 = UIViewPropertyAnimator(duration: duration, curve: .easeInOut) {
             self.titleLabel.alpha = 1
             self.view.layoutIfNeeded()
         }
         animator1.startAnimation()
         animator2.startAnimation(afterDelay: 0.3)
-        animator3.startAnimation(afterDelay: 1)
+        animator3.startAnimation(afterDelay: 0.5)
     }
 }
 

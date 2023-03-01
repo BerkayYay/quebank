@@ -18,6 +18,7 @@
 		F09699EE29A7A85800733E2F /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09699ED29A7A85800733E2F /* AccountSummaryCell.swift */; };
 		F09699F229A7FB6000733E2F /* DecimalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09699F129A7FB6000733E2F /* DecimalUtils.swift */; };
 		F09699F429A7FBA100733E2F /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09699F329A7FBA100733E2F /* CurrencyFormatter.swift */; };
+		F0B8E06C29AF60B300360961 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8E06B29AF60B300360961 /* ShakeyBellView.swift */; };
 		F0BC91152997ACD800340114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC91142997ACD800340114 /* AppDelegate.swift */; };
 		F0BC91192997ACD800340114 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC91182997ACD800340114 /* LoginViewController.swift */; };
 		F0BC911E2997ACD900340114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BC911D2997ACD900340114 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		F09699ED29A7A85800733E2F /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		F09699F129A7FB6000733E2F /* DecimalUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalUtils.swift; sourceTree = "<group>"; };
 		F09699F329A7FBA100733E2F /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		F0B8E06B29AF60B300360961 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 		F0BC91112997ACD800340114 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BC91142997ACD800340114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0BC91182997ACD800340114 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				F087ADB229A3B2BE00A22643 /* AccountSummary */,
 				F0BC912A2997B43100340114 /* Login */,
 				F02B6C7E29A377160011EFF1 /* Utils */,
+				F0E1D63129AE172E007E40D8 /* Components */,
 				F0BC91292997B40C00340114 /* Files */,
 			);
 			path = Bankey;
@@ -230,6 +233,14 @@
 				F0BC9132299BA97900340114 /* OnboardingVC.swift */,
 			);
 			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		F0E1D63129AE172E007E40D8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8E06B29AF60B300360961 /* ShakeyBellView.swift */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +358,7 @@
 				F02B6C8029A3771C0011EFF1 /* LocalState.swift in Sources */,
 				F087ADB829A3B80C00A22643 /* AccountSummaryHeaderView.swift in Sources */,
 				F0D9BA1A29ACF9A60053CC3B /* UITextField+SecureToggle.swift in Sources */,
+				F0B8E06C29AF60B300360961 /* ShakeyBellView.swift in Sources */,
 				F07ED323299D26D2001AA57C /* DummyVC.swift in Sources */,
 				F09699F429A7FBA100733E2F /* CurrencyFormatter.swift in Sources */,
 				F09699F229A7FB6000733E2F /* DecimalUtils.swift in Sources */,
