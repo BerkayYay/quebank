@@ -54,7 +54,7 @@
 		F09699F129A7FB6000733E2F /* DecimalUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalUtils.swift; sourceTree = "<group>"; };
 		F09699F329A7FBA100733E2F /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		F0B8E06B29AF60B300360961 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
-		F0BC91112997ACD800340114 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BC91112997ACD800340114 /* Quebank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quebank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BC91142997ACD800340114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0BC91182997ACD800340114 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F0BC911D2997ACD900340114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 		F0BC91082997ACD800340114 = {
 			isa = PBXGroup;
 			children = (
-				F0BC91132997ACD800340114 /* Bankey */,
+				F0BC91132997ACD800340114 /* Quebank */,
 				F081E59029AB7C1100BB2D59 /* QuebankUnitTests */,
 				F0BC91122997ACD800340114 /* Products */,
 			);
@@ -169,13 +169,13 @@
 		F0BC91122997ACD800340114 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0BC91112997ACD800340114 /* Bankey.app */,
+				F0BC91112997ACD800340114 /* Quebank.app */,
 				F081E58F29AB7C1100BB2D59 /* QuebankUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F0BC91132997ACD800340114 /* Bankey */ = {
+		F0BC91132997ACD800340114 /* Quebank */ = {
 			isa = PBXGroup;
 			children = (
 				F0BC91142997ACD800340114 /* AppDelegate.swift */,
@@ -187,7 +187,7 @@
 				F0E1D63129AE172E007E40D8 /* Components */,
 				F0BC91292997B40C00340114 /* Files */,
 			);
-			path = Bankey;
+			path = Quebank;
 			sourceTree = "<group>";
 		};
 		F0BC91292997B40C00340114 /* Files */ = {
@@ -264,9 +264,9 @@
 			productReference = F081E58F29AB7C1100BB2D59 /* QuebankUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F0BC91102997ACD800340114 /* Bankey */ = {
+		F0BC91102997ACD800340114 /* Quebank */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0BC91252997ACD900340114 /* Build configuration list for PBXNativeTarget "Bankey" */;
+			buildConfigurationList = F0BC91252997ACD900340114 /* Build configuration list for PBXNativeTarget "Quebank" */;
 			buildPhases = (
 				F0BC910D2997ACD800340114 /* Sources */,
 				F0BC910E2997ACD800340114 /* Frameworks */,
@@ -276,9 +276,9 @@
 			);
 			dependencies = (
 			);
-			name = Bankey;
+			name = Quebank;
 			productName = Bankey;
-			productReference = F0BC91112997ACD800340114 /* Bankey.app */;
+			productReference = F0BC91112997ACD800340114 /* Quebank.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -301,7 +301,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F0BC910C2997ACD800340114 /* Build configuration list for PBXProject "Bankey" */;
+			buildConfigurationList = F0BC910C2997ACD800340114 /* Build configuration list for PBXProject "Quebank" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -314,7 +314,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F0BC91102997ACD800340114 /* Bankey */,
+				F0BC91102997ACD800340114 /* Quebank */,
 				F081E58E29AB7C1100BB2D59 /* QuebankUnitTests */,
 			);
 		};
@@ -378,7 +378,7 @@
 /* Begin PBXTargetDependency section */
 		F081E59429AB7C1100BB2D59 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F0BC91102997ACD800340114 /* Bankey */;
+			target = F0BC91102997ACD800340114 /* Quebank */;
 			targetProxy = F081E59329AB7C1100BB2D59 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -567,7 +567,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9733LH72T3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Bankey/Info.plist;
+				INFOPLIST_FILE = Quebank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -593,7 +593,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9733LH72T3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Bankey/Info.plist;
+				INFOPLIST_FILE = Quebank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -622,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0BC910C2997ACD800340114 /* Build configuration list for PBXProject "Bankey" */ = {
+		F0BC910C2997ACD800340114 /* Build configuration list for PBXProject "Quebank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0BC91232997ACD900340114 /* Debug */,
@@ -631,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0BC91252997ACD900340114 /* Build configuration list for PBXNativeTarget "Bankey" */ = {
+		F0BC91252997ACD900340114 /* Build configuration list for PBXNativeTarget "Quebank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0BC91262997ACD900340114 /* Debug */,
