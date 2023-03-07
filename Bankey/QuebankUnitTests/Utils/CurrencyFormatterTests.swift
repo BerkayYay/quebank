@@ -8,7 +8,7 @@
 import Foundation
 import XCTest
 
-@testable import Bankey
+@testable import Quebank
 
 class Test: XCTestCase {
     var formatter: CurrencyFormatter!

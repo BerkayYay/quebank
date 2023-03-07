@@ -106,7 +106,7 @@ extension AccountSummaryVC {
 extension AccountSummaryVC {
     private func fetchDataAndLoadViews() {
         
-        fetchProfile(forUserId: "3") { result in
+        fetchProfile(forUserId: "1") { result in
             switch result {
             case .success(let profile):
                 self.profile = profile
@@ -117,7 +117,7 @@ extension AccountSummaryVC {
             }
         }
         
-        fetchAccounts(forUserId: "3") { result in
+        fetchAccounts(forUserId: "1") { result in
             switch result {
             case .success(let accounts):
                 self.accounts = accounts
