@@ -101,7 +101,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F02B6C7E29A377160011EFF1 /* Utils */ = {
+		F081E59029AB7C1100BB2D59 /* QuebankUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0C0CAFC29B781DB0051C21A /* AccountSummary */,
+				F0C0CAFB29B781D50051C21A /* Utils */,
+			);
+			path = QuebankUnitTests;
+			sourceTree = "<group>";
+		};
+		F09F3EF229BCAAB000FD66AB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F087ADB029A3938F00A22643 /* MainVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F09F3EF329BCAACD00FD66AB /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F0BC9130299A6FC500340114 /* OnboardingContainerVC.swift */,
+				F0BC9132299BA97900340114 /* OnboardingVC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F09F3EF429BCAADF00FD66AB /* AccountSummary */ = {
+			isa = PBXGroup;
+			children = (
+				F087ADB329A3B2CE00A22643 /* AccountSummaryVC.swift */,
+				F0FA994D29B61684002CB623 /* AccountSummaryVC+Networking.swift */,
+				F09F3EF729BCAB0400FD66AB /* Header */,
+				F09F3EF629BCAAF600FD66AB /* Cells */,
+				F09F3EF529BCAAE900FD66AB /* Networking */,
+			);
+			path = AccountSummary;
+			sourceTree = "<group>";
+		};
+		F09F3EF529BCAAE900FD66AB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F0D1F89429BB5CEA00157C69 /* ProfileManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F09F3EF629BCAAF600FD66AB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F09F3EF929BCAB1700FD66AB /* Protocol */,
+				F09F3EF829BCAB1200FD66AB /* View */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F09F3EF729BCAB0400FD66AB /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F09F3EFB29BCAB3F00FD66AB /* View */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		F09F3EF829BCAB1200FD66AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F09699ED29A7A85800733E2F /* AccountSummaryCell.swift */,
+				F0D1F89129B9DD8000157C69 /* SkeletonCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F09F3EF929BCAB1700FD66AB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F0D1F88F29B9DD0800157C69 /* SkeletonLoadable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F09F3EFB29BCAB3F00FD66AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F087ADB729A3B80C00A22643 /* AccountSummaryHeaderView.swift */,
+				F087ADB929A3B84400A22643 /* AccountSummaryHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F09F3EFC29BCAB6C00FD66AB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F09F3F0229BCABC000FD66AB /* Controller */,
+				F09F3F0129BCABBB00FD66AB /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F09F3EFE29BCAB7700FD66AB /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				F087ADAD29A3920B00A22643 /* UIViewController+Utils.swift */,
@@ -112,71 +210,42 @@
 				F0D9BA1729ACF0930053CC3B /* NSNotificationName.swift */,
 				F0BAB0F429B0E56A004BE5F1 /* Date+Utils.swift */,
 			);
-			name = Utils;
+			path = Utils;
 			sourceTree = "<group>";
 		};
-		F081E59029AB7C1100BB2D59 /* QuebankUnitTests */ = {
+		F09F3EFF29BCAB7B00FD66AB /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				F0C0CAFC29B781DB0051C21A /* AccountSummary */,
-				F0C0CAFB29B781D50051C21A /* Utils */,
+				F0B8E06B29AF60B300360961 /* ShakeyBellView.swift */,
 			);
-			path = QuebankUnitTests;
+			path = Components;
 			sourceTree = "<group>";
 		};
-		F087ADAF29A3937C00A22643 /* Main */ = {
+		F09F3F0029BCAB8200FD66AB /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				F087ADB029A3938F00A22643 /* MainVC.swift */,
+				F0BC911D2997ACD900340114 /* Assets.xcassets */,
+				F0BC911F2997ACD900340114 /* LaunchScreen.storyboard */,
+				F0BC91222997ACD900340114 /* Info.plist */,
 			);
-			name = Main;
+			path = Files;
 			sourceTree = "<group>";
 		};
-		F087ADB229A3B2BE00A22643 /* AccountSummary */ = {
+		F09F3F0129BCABBB00FD66AB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F087ADB329A3B2CE00A22643 /* AccountSummaryVC.swift */,
-				F0FA994D29B61684002CB623 /* AccountSummaryVC+Networking.swift */,
-				F09699E829A7A81C00733E2F /* Header */,
-				F09699E929A7A82100733E2F /* Cells */,
-				F0D1F89329BB5CD500157C69 /* Networking */,
+				F0BC912B2997B45900340114 /* LoginView.swift */,
 			);
-			name = AccountSummary;
+			path = View;
 			sourceTree = "<group>";
 		};
-		F09699E829A7A81C00733E2F /* Header */ = {
+		F09F3F0229BCABC000FD66AB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F09699EA29A7A83500733E2F /* View */,
+				F0BC91182997ACD800340114 /* LoginViewController.swift */,
+				F07ED322299D26D2001AA57C /* DummyVC.swift */,
 			);
-			name = Header;
-			sourceTree = "<group>";
-		};
-		F09699E929A7A82100733E2F /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				F0D1F88E29B9DCFA00157C69 /* Protocol */,
-				F09699EF29A7EF3100733E2F /* View */,
-			);
-			name = Cells;
-			sourceTree = "<group>";
-		};
-		F09699EA29A7A83500733E2F /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F087ADB729A3B80C00A22643 /* AccountSummaryHeaderView.swift */,
-				F087ADB929A3B84400A22643 /* AccountSummaryHeaderView.xib */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		F09699EF29A7EF3100733E2F /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F09699ED29A7A85800733E2F /* AccountSummaryCell.swift */,
-				F0D1F89129B9DD8000157C69 /* SkeletonCell.swift */,
-			);
-			name = View;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		F0BC91082997ACD800340114 = {
@@ -201,60 +270,15 @@
 			isa = PBXGroup;
 			children = (
 				F0BC91142997ACD800340114 /* AppDelegate.swift */,
-				F087ADAF29A3937C00A22643 /* Main */,
-				F0BC912F299A6F9800340114 /* Onboarding */,
-				F087ADB229A3B2BE00A22643 /* AccountSummary */,
-				F0BC912A2997B43100340114 /* Login */,
-				F02B6C7E29A377160011EFF1 /* Utils */,
-				F0E1D63129AE172E007E40D8 /* Components */,
-				F0BC91292997B40C00340114 /* Files */,
+				F09F3EF229BCAAB000FD66AB /* Main */,
+				F09F3EFC29BCAB6C00FD66AB /* Login */,
+				F09F3EF329BCAACD00FD66AB /* Onboarding */,
+				F09F3EF429BCAADF00FD66AB /* AccountSummary */,
+				F09F3EFE29BCAB7700FD66AB /* Utils */,
+				F09F3EFF29BCAB7B00FD66AB /* Components */,
+				F09F3F0029BCAB8200FD66AB /* Files */,
 			);
 			path = Quebank;
-			sourceTree = "<group>";
-		};
-		F0BC91292997B40C00340114 /* Files */ = {
-			isa = PBXGroup;
-			children = (
-				F0BC911D2997ACD900340114 /* Assets.xcassets */,
-				F0BC911F2997ACD900340114 /* LaunchScreen.storyboard */,
-				F0BC91222997ACD900340114 /* Info.plist */,
-			);
-			name = Files;
-			sourceTree = "<group>";
-		};
-		F0BC912A2997B43100340114 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				F0BC912E299A6E7600340114 /* Controller */,
-				F0BC912D299A6E6D00340114 /* View */,
-			);
-			name = Login;
-			sourceTree = "<group>";
-		};
-		F0BC912D299A6E6D00340114 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F0BC912B2997B45900340114 /* LoginView.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		F0BC912E299A6E7600340114 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				F0BC91182997ACD800340114 /* LoginViewController.swift */,
-				F07ED322299D26D2001AA57C /* DummyVC.swift */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		F0BC912F299A6F9800340114 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				F0BC9130299A6FC500340114 /* OnboardingContainerVC.swift */,
-				F0BC9132299BA97900340114 /* OnboardingVC.swift */,
-			);
-			name = Onboarding;
 			sourceTree = "<group>";
 		};
 		F0C0CAFB29B781D50051C21A /* Utils */ = {
@@ -273,30 +297,6 @@
 				F0D1F89629BB5E3D00157C69 /* AccountSummaryVCTests.swift */,
 			);
 			path = AccountSummary;
-			sourceTree = "<group>";
-		};
-		F0D1F88E29B9DCFA00157C69 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				F0D1F88F29B9DD0800157C69 /* SkeletonLoadable.swift */,
-			);
-			name = Protocol;
-			sourceTree = "<group>";
-		};
-		F0D1F89329BB5CD500157C69 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				F0D1F89429BB5CEA00157C69 /* ProfileManager.swift */,
-			);
-			name = Networking;
-			sourceTree = "<group>";
-		};
-		F0E1D63129AE172E007E40D8 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				F0B8E06B29AF60B300360961 /* ShakeyBellView.swift */,
-			);
-			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
