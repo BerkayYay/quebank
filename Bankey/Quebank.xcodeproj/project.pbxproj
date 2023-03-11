@@ -31,6 +31,8 @@
 		F0C0CB0029B782180051C21A /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C0CAFF29B782180051C21A /* AccountTests.swift */; };
 		F0D1F89029B9DD0800157C69 /* SkeletonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D1F88F29B9DD0800157C69 /* SkeletonLoadable.swift */; };
 		F0D1F89229B9DD8000157C69 /* SkeletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D1F89129B9DD8000157C69 /* SkeletonCell.swift */; };
+		F0D1F89529BB5CEA00157C69 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D1F89429BB5CEA00157C69 /* ProfileManager.swift */; };
+		F0D1F89729BB5E3D00157C69 /* AccountSummaryVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D1F89629BB5E3D00157C69 /* AccountSummaryVCTests.swift */; };
 		F0D9BA1829ACF0930053CC3B /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9BA1729ACF0930053CC3B /* NSNotificationName.swift */; };
 		F0D9BA1A29ACF9A60053CC3B /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9BA1929ACF9A60053CC3B /* UITextField+SecureToggle.swift */; };
 		F0FA994E29B61684002CB623 /* AccountSummaryVC+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA994D29B61684002CB623 /* AccountSummaryVC+Networking.swift */; };
@@ -74,6 +76,8 @@
 		F0C0CAFF29B782180051C21A /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 		F0D1F88F29B9DD0800157C69 /* SkeletonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoadable.swift; sourceTree = "<group>"; };
 		F0D1F89129B9DD8000157C69 /* SkeletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonCell.swift; sourceTree = "<group>"; };
+		F0D1F89429BB5CEA00157C69 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		F0D1F89629BB5E3D00157C69 /* AccountSummaryVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryVCTests.swift; sourceTree = "<group>"; };
 		F0D9BA1729ACF0930053CC3B /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		F0D9BA1929ACF9A60053CC3B /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
 		F0FA994D29B61684002CB623 /* AccountSummaryVC+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryVC+Networking.swift"; sourceTree = "<group>"; };
@@ -135,6 +139,7 @@
 				F0FA994D29B61684002CB623 /* AccountSummaryVC+Networking.swift */,
 				F09699E829A7A81C00733E2F /* Header */,
 				F09699E929A7A82100733E2F /* Cells */,
+				F0D1F89329BB5CD500157C69 /* Networking */,
 			);
 			name = AccountSummary;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			children = (
 				F0C0CAFD29B781F40051C21A /* ProfileTests.swift */,
 				F0C0CAFF29B782180051C21A /* AccountTests.swift */,
+				F0D1F89629BB5E3D00157C69 /* AccountSummaryVCTests.swift */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";
@@ -275,6 +281,14 @@
 				F0D1F88F29B9DD0800157C69 /* SkeletonLoadable.swift */,
 			);
 			name = Protocol;
+			sourceTree = "<group>";
+		};
+		F0D1F89329BB5CD500157C69 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F0D1F89429BB5CEA00157C69 /* ProfileManager.swift */,
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 		F0E1D63129AE172E007E40D8 /* Components */ = {
@@ -388,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0C0CAF929B781570051C21A /* CurrencyFormatterTests.swift in Sources */,
+				F0D1F89729BB5E3D00157C69 /* AccountSummaryVCTests.swift in Sources */,
 				F0C0CB0029B782180051C21A /* AccountTests.swift in Sources */,
 				F0C0CAFE29B781F40051C21A /* ProfileTests.swift in Sources */,
 			);
@@ -400,6 +415,7 @@
 				F087ADAE29A3920B00A22643 /* UIViewController+Utils.swift in Sources */,
 				F0D1F89229B9DD8000157C69 /* SkeletonCell.swift in Sources */,
 				F0BAB0F529B0E56A004BE5F1 /* Date+Utils.swift in Sources */,
+				F0D1F89529BB5CEA00157C69 /* ProfileManager.swift in Sources */,
 				F0BC912C2997B45900340114 /* LoginView.swift in Sources */,
 				F02B6C8029A3771C0011EFF1 /* LocalState.swift in Sources */,
 				F087ADB829A3B80C00A22643 /* AccountSummaryHeaderView.swift in Sources */,
